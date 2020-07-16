@@ -1,0 +1,9 @@
+
+
+ip : 172.30.25.22
+
+command : java -jar -h [ip] FLAG
+
+-d for desktop streaming
+
+-p [filename]
