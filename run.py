@@ -6,12 +6,9 @@ from datetime import datetime
 import threading
 from pynput.keyboard import Key, Controller
 
-# applec1@dallassd.com
-# Dallas14!
-
 kb = Controller()
 #ip list
-ips = ["172.30.28.235"] # "172.30.25.22", "172.30.25.74", 
+ips = []
 
 #loads all images from directory
 # def load_images():
@@ -81,7 +78,7 @@ def run():
 	
 	# imgs = load_images()
 	# cmds = load_commands(imgs)
-	cmd = "java -jar airplay.jar -h  -a Dickbutt123 -p images -t " + str(pause_time)
+	cmd = "java -jar airplay.jar -h  -a -p images -t " + str(pause_time)
 
 	# num_threads = len(imgs) * len(ips)
 	# threads = []
